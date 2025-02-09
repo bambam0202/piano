@@ -7,21 +7,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Play the Piano</h1>
+  <h1>Virtual Piano</h1>
   <div id="piano">
-    <div class="key white" data-key="65" data-sound="sounds/65.mp3" aria-label="C">A</div>
-    <div class="key black" data-key="87" data-sound="sounds/87.mp3" aria-label="C#">S</div>
-    <div class="key white" data-key="83" data-sound="sounds/83.mp3" aria-label="D">D</div>
-    <div class="key black" data-key="69" data-sound="sounds/69.mp3" aria-label="D#">C</div>
-    <div class="key white" data-key="68" data-sound="sounds/68.mp3" aria-label="E">F</div>
-    <div class="key white" data-key="70" data-sound="sounds/70.mp3" aria-label="F">G</div>
-    <div class="key black" data-key="71" data-sound="sounds/71.mp3" aria-label="F#">H</div>
-    <div class="key white" data-key="72" data-sound="sounds/72.mp3" aria-label="G">J</div>
-    <div class="key black" data-key="74" data-sound="sounds/74.mp3" aria-label="G#">K</div>
-    <div class="key white" data-key="75" data-sound="sounds/75.mp3" aria-label="A">A</div>
-    <div class="key black" data-key="76" data-sound="sounds/76.mp3" aria-label="A#"></div>
-    <div class="key white" data-key="90" data-sound="sounds/90.mp3" aria-label="B">B</div>
-    <div class="key white" data-key="88" data-sound="sounds/88.mp3" aria-label="C (Octave Up)">W</div>
+    <!-- White keys -->
+    <div class="key white" data-key="65" data-sound="sounds/C4.mp3">A</div>
+    <div class="key white" data-key="83" data-sound="sounds/D4.mp3">S</div>
+    <div class="key white" data-key="68" data-sound="sounds/E4.mp3">D</div>
+    <div class="key white" data-key="70" data-sound="sounds/F4.mp3">F</div>
+    <div class="key white" data-key="72" data-sound="sounds/G4.mp3">J</div>
+    <div class="key white" data-key="75" data-sound="sounds/A4.mp3">K</div>
+    <div class="key white" data-key="76" data-sound="sounds/B4.mp3">L</div>
+    <div class="key white" data-key="90" data-sound="sounds/C5.mp3">Z</div>
+
+    <!-- Black keys -->
+    <div class="key black" data-key="87" data-sound="sounds/Csharp4.mp3">W</div>
+    <div class="key black" data-key="69" data-sound="sounds/Dsharp4.mp3">E</div>
+    <div class="key black" data-key="71" data-sound="sounds/Fsharp4.mp3">G</div>
+    <div class="key black" data-key="74" data-sound="sounds/Gsharp4.mp3">I</div>
+    <div class="key black" data-key="79" data-sound="sounds/Asharp4.mp3">O</div>
   </div>
   <script src="script.js"></script>
 </body>
