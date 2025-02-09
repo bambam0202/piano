@@ -1,31 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Virtual Piano</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>Virtual Piano</h1>
-  <div id="piano">
-    <!-- White keys -->
-    <div class="key white" data-key="65" data-sound="sounds/C4.mp3">A</div>
-    <div class="key white" data-key="83" data-sound="sounds/D4.mp3">S</div>
-    <div class="key white" data-key="68" data-sound="sounds/E4.mp3">D</div>
-    <div class="key white" data-key="70" data-sound="sounds/F4.mp3">F</div>
-    <div class="key white" data-key="72" data-sound="sounds/G4.mp3">J</div>
-    <div class="key white" data-key="75" data-sound="sounds/A4.mp3">K</div>
-    <div class="key white" data-key="76" data-sound="sounds/B4.mp3">L</div>
-    <div class="key white" data-key="90" data-sound="sounds/C5.mp3">Z</div>
+<div id="piano">
+  <!-- White Keys -->
+  <div class="key white" data-key="65" data-note="C" data-sound="sounds/C4.mp3">A</div>
+  <div class="key white" data-key="83" data-note="D" data-sound="sounds/D4.mp3">S</div>
+  <div class="key white" data-key="68" data-note="E" data-sound="sounds/E4.mp3">D</div>
+  <div class="key white" data-key="70" data-note="F" data-sound="sounds/F4.mp3">F</div>
+  <div class="key white" data-key="72" data-note="G" data-sound="sounds/G4.mp3">J</div>
+  <div class="key white" data-key="75" data-note="A" data-sound="sounds/A4.mp3">K</div>
+  <div class="key white" data-key="76" data-note="B" data-sound="sounds/B4.mp3">L</div>
 
-    <!-- Black keys -->
-    <div class="key black" data-key="87" data-sound="sounds/Csharp4.mp3">W</div>
-    <div class="key black" data-key="69" data-sound="sounds/Dsharp4.mp3">E</div>
-    <div class="key black" data-key="71" data-sound="sounds/Fsharp4.mp3">G</div>
-    <div class="key black" data-key="74" data-sound="sounds/Gsharp4.mp3">I</div>
-    <div class="key black" data-key="79" data-sound="sounds/Asharp4.mp3">O</div>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
+  <!-- Black Keys -->
+  <div class="key black" data-key="87" data-note="C#" data-sound="sounds/Csharp4.mp3">W</div>
+  <div class="key black" data-key="69" data-note="D#" data-sound="sounds/Dsharp4.mp3">E</div>
+  <div class="key black" data-key="71" data-note="F#" data-sound="sounds/Fsharp4.mp3">G</div>
+  <div class="key black" data-key="74" data-note="G#" data-sound="sounds/Gsharp4.mp3">I</div>
+  <div class="key black" data-key="79" data-note="A#" data-sound="sounds/Asharp4.mp3">O</div>
+</div>
