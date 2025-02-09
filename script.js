@@ -14,6 +14,8 @@ document.addEventListener('keydown', (event) => {
   } else if (event.keyCode === 69) {  // For key "G"
     new Audio('69.mp3').play(); // G key
   } else if (event.keyCode === 72 ) {  // For key "H"
-    new Audio('72.mp3').play(); // G key
-  }
+    new Audio('72.mp3').play(); // H key
+  } else if (event.keyCode == 74 ) {
+    new Audio('').play();
+  
 });
