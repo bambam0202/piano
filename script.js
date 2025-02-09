@@ -18,8 +18,8 @@ document.addEventListener('keydown', (event) => {
   } else if (event.keyCode === 74) {  
     new Audio('74.mp3').play(); // J key (newly added)
   } else if (event.keyCode === 75) {  
-    new Audio('75.mp3').play(); 
+    new Audio('99.mp3').play(); 
   } else if (event.keyCode === 76) {  
-    new Audio('76.mp3').play(); // L key (newly added)
+    new Audio('87.mp3').play(); // L key (newly added)
   } 
 });
