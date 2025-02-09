@@ -17,5 +17,5 @@ document.addEventListener('keydown', (event) => {
     new Audio('72.mp3').play(); // H key
   } else if (event.keyCode == 74 ) {
     new Audio('74.mp3').play();
-  
+  }
 });
