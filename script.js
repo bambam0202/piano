@@ -8,7 +8,7 @@ document.addEventListener('keydown', (event) => {
   } else if (event.keyCode === 70) {  
     new Audio('70.mp3').play(); // F key
   } else if (event.keyCode === 68) {  
-    new Audio('71.mp3').play(); // D key plays sound 71.mp3
+    new Audio('68.mp3').play(); // D key plays sound 71.mp3
   } else if (event.keyCode === 71) {  
     new Audio('51.mp3').play(); // G key plays sound 51.mp3
   } else if (event.keyCode === 69) {  
